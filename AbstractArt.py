@@ -24,4 +24,5 @@ def AbstractArt():
 btn = Button(tk, text = "Generate Art!", command=AbstractArt)
 canvas.pack()
 btn.pack()
+tk.mainloop()
 input()
